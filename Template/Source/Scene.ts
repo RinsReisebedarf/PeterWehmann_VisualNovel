@@ -4,12 +4,12 @@ namespace Template {
 
     let text = {
       Narrator: {
-        T0001: ""
+        T0001: "",
         T0002: ""
       },
       Aisaka: {
-        T0001: ""
-        T0002:
+        T0001: "",
+        T0002: ""
       }
     };
 
