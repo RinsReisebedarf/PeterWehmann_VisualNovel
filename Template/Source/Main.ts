@@ -6,9 +6,9 @@ namespace Template {
 
 // define transitions
 export let transitions = {
-  puzzle {
+  puzzle: {
     duration: 1,
-    alpha "./Tutorial_WS21/FreeTransitions/JigsawThemedTransitions/puzzle.png",
+    alpha: "./Tutorial_WS21/FreeTransitions/JigsawThemedTransitions/puzzle.png",
     edge: 1
   }
 }
@@ -27,7 +27,7 @@ export let locations = {
     background: "C:\Users\Peter\Pictures\Visual Novel\Under Water\6e7d0324e595402188b414987e9bf5ce.jpg"
   },
   starry: {
-    name: "Starry"
+    name: "Starry",
     background: "Pfad"
   }
 };
@@ -38,7 +38,7 @@ export let characters = {
     name: ""
   },
   aisaka: {
-    name: "Aisaka"
+    name: "Aisaka",
     origin: ƒS.ORIGIN.BOTTOMCENTER,
     pose: {
       angry: "Pfad",
@@ -50,15 +50,15 @@ export let characters = {
     name: "Kohanna",
     origin: ƒS.ORIGIN.BOTTOMCENTER,
     Pose: {
-      angry: ""
-      happy: ""
-      upset: ""
+      angry: "",
+      happy: "",
+      upset: "",
     }
   }
 };
 
 export let DataForSave = {
-  nameProtagonist: ""
+  nameProtagonist: "",
   score: 0
 };
 
