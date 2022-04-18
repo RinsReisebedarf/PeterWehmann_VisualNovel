@@ -24,7 +24,7 @@ export let sound = {
 export let locations = {
   nightpark: {
     name: "",
-    background: "./Tutorial_WS21/Images/Background/Nightpark.png"
+    background: "C:\Users\Peter\Pictures\Visual Novel\Under Water\6e7d0324e595402188b414987e9bf5ce.jpg"
   },
   starry: {
     name: "Starry"
@@ -75,3 +75,4 @@ export let DataForSave = {
     ƒS.Progress.go(scenes);
   }
 }
+
